@@ -4,11 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [dev-packages]
-selenium = {version = "<4"}
+selenium = "~=3.4.3"
+ipython = "*"
 
 [packages]
-
 django = "~=1.11.3"
+ipython = "*"
 
 [requires]
 python_version = "3.6"
